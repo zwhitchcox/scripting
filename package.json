@@ -10,8 +10,8 @@
     "prepublish": "tsc"
   },
   "bin": {
-    "scripting": "dist/index.js",
-    "create-react-page-test": "dist/create-react-page.js"
+    "scripting": "./dist/index.js",
+    "create-react-page-test": "./dist/create-react-page.js"
   },
   "keywords": [],
   "author": "",
