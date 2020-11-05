@@ -1,0 +1,26 @@
+{
+  "name": "scripting",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "public": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w",
+    "prepublish": "tsc"
+  },
+  "bin": {
+    "scripting": "dist/index.js",
+    "create-react-page-test": "dist/create-react-page.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6"
+  }
+}
