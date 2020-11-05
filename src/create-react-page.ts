@@ -12,6 +12,7 @@ const pageName = args[0]
 
 const template = (pageName) => (
 `import * as React from 'react'
+import ./${pageName}.scss
 
 const ${pageName} = () => {
   return (

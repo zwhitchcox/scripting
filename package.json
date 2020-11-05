@@ -1,6 +1,6 @@
 {
-  "name": "scripting",
-  "version": "0.0.6",
+  "name": "ezscript",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "public": true,
