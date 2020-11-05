@@ -11,7 +11,7 @@
   },
   "bin": {
     "scripting": "./dist/index.js",
-    "create-react-page-test": "./dist/create-react-page.js"
+    "create-react-page": "./dist/create-react-page.js"
   },
   "keywords": [],
   "author": "",
