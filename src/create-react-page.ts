@@ -27,7 +27,7 @@ export default ${pageName}`
 const createReactPage = async (pageName, location) => {
   const file = path.resolve(location, pageName)
   await fs.writeFile(`${file}.tsx`, template(pageName))
-  await fs.writeFile(`${file}.scss`, template(pageName))
+  await fs.writeFile(`${file}.scss`, "")
 }
 
 
